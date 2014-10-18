@@ -14,7 +14,7 @@ module.exports = {
         dest: dest
     },
     images: {
-        app: "./public/images/**",
+        src: "./public/images/**",
         dest: dest + "/images"
     },
     browserify: {
