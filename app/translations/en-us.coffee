@@ -16,3 +16,4 @@ module.exports =
 
   classify:
     title: "Classify!"
+    tutorial: 'Tutorial'
