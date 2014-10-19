@@ -17,4 +17,6 @@ module?.exports = Ractive.extend
 
   oninit: -> console.log "Classify Page"
 
+  onteardown: -> @tutorial.destroy()
+
   startTutorial: -> @tutorial.start()
