@@ -2,4 +2,4 @@
 
 var gulp = require('gulp');
 
-gulp.task('default', ['clean', 'serve','stylus', 'html','images', 'watch', 'browserify']);
+gulp.task('default', ['serve', 'watch', 'browserify']);

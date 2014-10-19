@@ -9,4 +9,3 @@ gulp.task('images', function() {
     .pipe(imagemin())
     .pipe(gulp.dest(config.dest));
 });
-

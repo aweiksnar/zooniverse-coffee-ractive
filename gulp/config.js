@@ -14,7 +14,7 @@ module.exports = {
         dest: dest
     },
     images: {
-        src: "./public/images/**",
+        src: ["./public/images/**/*.svg", "./public/images/**/*.png", "./public/images/**/*.jpg"],
         dest: dest + "/images"
     },
     browserify: {
@@ -30,7 +30,7 @@ module.exports = {
 
     },
     server: {
-        file: dest,
+        dir: dest,
         port: 3333
     }
 };

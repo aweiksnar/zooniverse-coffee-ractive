@@ -1,2 +1,10 @@
 module.exports =
-  projectName: 'Your Zooniverse Project Name'
+  home:
+    projectName: "Zooniverse Project Name"
+    callToAction: "Get Started"
+
+  about:
+    title: "About"
+
+  classify:
+    title: "Classify!"
